@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'fastapi-pipeline'
+            label 'fastapi-build'
             }
       }
     triggers {
