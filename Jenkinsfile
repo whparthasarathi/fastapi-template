@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'fastapi-build'
+            label 'test-agent'
             }
       }
     triggers {
